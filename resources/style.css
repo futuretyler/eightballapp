@@ -19,8 +19,8 @@ body {
     align-items: center;
     justify-content: center;
     border: 1px solid red;
-    height: 90rem;
-    padding: 2rem 5rem;
+    height: auto;
+    padding: 1rem 5rem;
 }
 
 .main button {
@@ -42,12 +42,27 @@ body {
     color:red;
 }
 
+.form {
+    display: flex;
+    border: 1px solid yellow;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+}
+
+input {
+    height: 2rem;
+}
+
+input.placeholder {
+    text-align: center;
+}
 
 .main img {
-    width: 70%;
-    height: auto;
+    width: 20%;
+    max-height: auto;
     border: 1px solid green;
-    margin-top: 3rem;
+    margin-top: .5rem;
 }
 
 
@@ -55,6 +70,8 @@ body {
 h1 {
     font-size: 5rem;
     color: red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -62,6 +79,7 @@ h3 {
     color: red;
     text-align: center;
     border: 1px solid blue;
+    margin-top: .5rem;
 }
 
 p {
